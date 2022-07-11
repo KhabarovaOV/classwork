@@ -9,7 +9,7 @@ public class Task4 {
         System.out.println("Введите значение y: ");
         int y = sc.nextInt();
         if(x >0 && y > 0) {
-           System.out.println("Точка находится в 1 четверти");
+            System.out.println("Точка находится в 1 четверти");
         }
         else if (x <0 && y > 0) {
             System.out.println("Точка находится в 2 четверти");}
@@ -17,6 +17,5 @@ public class Task4 {
             System.out.println("Точка находится в 3 четверти");}
         else if (x >0 && y < 0) {
             System.out.println("Точка находится в 4 четверти");}
-
     }
 }

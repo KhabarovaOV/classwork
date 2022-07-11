@@ -3,160 +3,256 @@ import java.util.Scanner;
 public class Task5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Введите день рождения: ");
+        System.out.println("Р’РІРµРґРёС‚Рµ РґРµРЅСЊ СЂРѕР¶РґРµРЅРёСЏ: ");
         int d = sc.nextInt();
         Scanner scn = new Scanner(System.in);
-        System.out.println("Введите месяц рождения: ");
+        System.out.println("Р’РІРµРґРёС‚Рµ РјРµСЃСЏС† СЂРѕР¶РґРµРЅРёСЏ: ");
         byte m = sc.nextByte();
         Scanner scnn = new Scanner(System.in);
-        System.out.println("Введите год рождения: ");
+        System.out.println("Р’РІРµРґРёС‚Рµ РіРѕРґ СЂРѕР¶РґРµРЅРёСЏ: ");
         int g = sc.nextInt();
 
         switch (m){
             case (3): {
                 if (d >= 21 && d < 32) {
-                    System.out.println("Знак зодиака: Овен");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: РћРІРµРЅ");
                 } else {
-                    System.out.println("Знак зодиака: Рыбы");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: Р С‹Р±С‹");
                 }
                 break;
             }
             case (4): {
                 if (d >= 21 && d < 31) {
-                    System.out.println("Знак зодиака: Телец");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: РўРµР»РµС†");
                 } else {
-                    System.out.println("Знак зодиака: Овен");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: РћРІРµРЅ");
                 }
                 break;
             }
             case (5): {
                 if (d >= 22 && d < 32) {
-                    System.out.println("Знак зодиака: Близнецы");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: Р‘Р»РёР·РЅРµС†С‹");
                 } else {
-                    System.out.println("Знак зодиака: Телец");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: РўРµР»РµС†");
                 }
                 break;
             }
             case (6): {
                 if (d >= 22 && d < 31) {
-                    System.out.println("Знак зодиака: Рак");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: Р Р°Рє");
                 } else {
-                    System.out.println("Знак зодиака: Близнецы");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: Р‘Р»РёР·РЅРµС†С‹");
                 }
                 break;
-                }
+            }
             case (7): {
                 if (d >= 24 && d < 32) {
-                    System.out.println("Знак зодиака: Лев");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: Р›РµРІ");
                 } else {
-                    System.out.println("Знак зодиака: Рак");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: Р Р°Рє");
                 }
                 break;
             }
             case (8): {
                 if (d >= 24 && d < 32) {
-                    System.out.println("Знак зодиака: Дева");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: Р”РµРІР°");
                 } else {
-                    System.out.println("Знак зодиака: Лев");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: Р Р°Рє");
                 }
                 break;
             }
             case (9): {
                 if (d >= 24 && d < 31) {
-                    System.out.println("Знак зодиака: Весы");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: Р’РµСЃС‹");
                 } else {
-                    System.out.println("Знак зодиака: Дева");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: Р”РµРІР°");
                 }
                 break;
             }
             case (10): {
                 if (d >= 24 && d < 32) {
-                    System.out.println("Знак зодиака: Скорпион");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: РЎРєРѕСЂРїРёРѕРЅ");
                 } else {
-                    System.out.println("Знак зодиака: Весы");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: Р’РµСЃС‹");
                 }
                 break;
             }
             case (11): {
                 if (d >= 23 && d < 31) {
-                    System.out.println("Знак зодиака: Стрелец");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: РЎС‚СЂРµР»РµС†");
                 } else {
-                    System.out.println("Знак зодиака: Скорпион");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: РЎРєРѕСЂРїРёРѕРЅ");
                 }
                 break;
             }
             case (12): {
                 if (d >= 22 && d < 32) {
-                    System.out.println("Знак зодиака: Козерог");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: РљРѕР·РµСЂРѕРі");
                 } else {
-                    System.out.println("Знак зодиака: Стрелец");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: РЎС‚СЂРµР»РµС†");
                 }
                 break;
             }
             case (1): {
                 if (d >= 21 && d < 32) {
-                    System.out.println("Знак зодиака: Водолей");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: Р’РѕРґРѕР»РµР№");
                 } else {
-                    System.out.println("Знак зодиака: Козерог");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: РљРѕР·РµСЂРѕРі");
                 }
                 break;
             }
             case (2): {
                 if (d >= 20 && d < 32) {
-                    System.out.println("Знак зодиака: Рыбы");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: Р С‹Р±С‹");
                 } else {
-                    System.out.println("Знак зодиака: Водолей");
+                    System.out.println("Р—РЅР°Рє Р·РѕРґРёР°РєР°: РљРѕР·РµСЂРѕРі");
                 }
                 break;
             }
         }
         switch (g) {
-            case (1920), (1932), (1944), (1956), (1968), (1980), (1992), (2004), (2016) -> {
-                System.out.println("Год: Обезьяна");
+            case (1920):
+            case (1932):
+            case (1944):
+            case (1956):
+            case (1968):
+            case (1980):
+            case (1992):
+            case (2004):
+            case (2016): {
+                System.out.println("Р“РѕРґ: РћР±РµР·СЊСЏРЅР°");
                 break;
             }
-            case (1921), (1933), (1945), (1957), (1969), (1981), (1993), (2005), (2017) -> {
-                System.out.println("Год: Петух");
+            case (1921):
+            case (1933):
+            case (1945):
+            case (1957):
+            case (1969):
+            case (1981):
+            case (1993):
+            case (2005):
+            case (2017):  {
+                System.out.println("Р“РѕРґ: РџРµС‚СѓС…");
                 break;
             }
-            case (1922), (1934), (1946), (1958), (1970), (1982), (1994), (2006), (2018) -> {
-                System.out.println("Год: Собака");
+            case (1922):
+            case (1934):
+            case (1946):
+            case (1958):
+            case (1970):
+            case (1982):
+            case (1994):
+            case (2006):
+            case (2018):     {
+                System.out.println("Р“РѕРґ: РЎРѕР±Р°РєР°");
                 break;
             }
-            case (1923), (1935), (1947), (1959), (1971), (1983), (1995), (2007), (2019) -> {
-                System.out.println("Год: Свинья");
+            case (1923):
+            case (1935):
+            case (1947):
+            case (1959):
+            case (1971):
+            case (1983):
+            case (1995):
+            case (2007):
+            case (2019):   {
+                System.out.println("Р“РѕРґ: РЎРІРёРЅСЊСЏ");
                 break;
             }
-            case (1924), (1936), (1948), (1960), (1972), (1984), (1996), (2008), (2020) -> {
-                System.out.println("Год: Крыса");
+            case (1924):
+            case (1936):
+            case (1948):
+            case (1960):
+            case (1972):
+            case (1984):
+            case (1996):
+            case (2008):
+            case (2020):    {
+                System.out.println("Р“РѕРґ: РљСЂС‹СЃР°");
                 break;
             }
-            case (1925), (1937), (1949), (1961), (1973), (1985), (1997), (2009), (2021) -> {
-                System.out.println("Год: Бык");
+            case (1925):
+            case (1937):
+            case (1949):
+            case (1961):
+            case (1973):
+            case (1985):
+            case (1997):
+            case (2009):
+            case (2021): {
+                System.out.println("Р“РѕРґ: Р‘С‹Рє");
                 break;
             }
-            case (1926), (1938), (1950), (1962), (1974), (1986), (1998), (2010), (2022) -> {
-                System.out.println("Год: Тигр");
+            case (1926):
+            case (1938):
+            case (1950):
+            case (1962):
+            case (1974):
+            case (1986):
+            case (1998):
+            case (2010):
+            case (2022): {
+                System.out.println("Р“РѕРґ: РўРёРіСЂ");
                 break;
             }
-            case (1927), (1939), (1951), (1963), (1975), (1987), (1999), (2011), (2023) -> {
-                System.out.println("Год: Кота(Кролика)");
+            case (1927):
+            case (1939):
+            case (1951):
+            case (1963):
+            case (1975):
+            case (1987):
+            case (1999):
+            case (2011):
+            case (2023):{
+                System.out.println("Р“РѕРґ: РљРѕС‚Р°(РљСЂРѕР»РёРєР°)");
                 break;
             }
-            case (1928), (1940), (1952), (1964), (1976), (1988), (2000), (2012), (2024) -> {
-                System.out.println("Год: Дракона");
+            case (1928):
+            case (1940):
+            case (1952):
+            case (1964):
+            case (1976):
+            case (1988):
+            case (2000):
+            case (2012):
+            case (2024): {
+                System.out.println("Р“РѕРґ: Р”СЂР°РєРѕРЅ");
                 break;
             }
-            case (1929), (1941), (1953), (1965), (1977), (1989), (2001), (2013), (2025) -> {
-                System.out.println("Год: Змея");
+            case (1929):
+            case (1941):
+            case (1953):
+            case (1965):
+            case (1977):
+            case (1989):
+            case (2001):
+            case (2013):
+            case (2025): {
+                System.out.println("Р“РѕРґ: Р—РјРµСЏ");
                 break;
             }
-            case (1930), (1942), (1954), (1966), (1978), (1990), (2002), (2014), (2026) -> {
-                System.out.println("Год: Лошадь");
+            case (1930):
+            case (1942):
+            case (1954):
+            case (1966):
+            case (1978):
+            case (1990):
+            case (2002):
+            case (2014):
+            case (2026): {
+                System.out.println("Р“РѕРґ: Р›РѕС€Р°РґСЊ");
                 break;
             }
-            case (1931), (1943), (1955), (1967), (1979), (1991), (2003), (2015), (2027) -> {
-                System.out.println("Год: Овца(Коза)");
+            case (1931):
+            case (1943):
+            case (1955):
+            case (1967):
+            case (1979):
+            case (1991):
+            case (2003):
+            case (2015):
+            case (2027): {
+                System.out.println("Р“РѕРґ: РљРѕР·Р°(РћРІС†Р°)");
                 break;
             }
         }

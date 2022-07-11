@@ -39,6 +39,5 @@ public class Task1 {
                 System.out.println("Not have day week");
             }
         }
-
     }
 }

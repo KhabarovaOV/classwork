@@ -56,5 +56,6 @@ public class Task3 {
                 System.out.println("Ворона: кар-кар");
                 break;
             }
+        }
     }
-}}
+}
