@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.stream.IntStream;
 
 public class Task4 {
     public static void main(String[] args) {
@@ -19,25 +20,25 @@ public class Task4 {
             }
             System.out.println();
         }
-        int sum = 0;
-        int sum2 = 0;
+
 
         for (int i = 0; i < matrix.length; i++) {
-            sum = sum + i;
-            int sm = sum / 5;
+            int total = IntStream.of(matrix[i]).sum();
+            int sum = total / 5;
 
             for (int j = 0; j < matrix[i].length; i++) {
-                sum2 = sum2 + j;
-                int s = sum2 / 5;
-
-
+                int total2 = IntStream.of(matrix[i]).sum();
+                int sum2 = total2 / 5;
                 if (sum < sum2) {
-                    System.out.println("Среднее арифметическое 2 строки : " + s + " больше среднего арифметического 1 строки : " + sm);
+                    System.out.println("Среднее арифметическое 2 строки : " + sum2 + " больше среднего арифметического 1 строки : " + sum);
                 }
-                System.out.println("Среднее арифметическое 1 строки : " + sm + " больше среднего арифметического 2 строки : " + s);
+                System.out.println("Среднее арифметическое 1 строки : " + sum + " больше среднего арифметического 2 строки : " + sum2);
 
             }
+
         }
+
+
 
     }
 }
